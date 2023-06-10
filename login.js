@@ -27,7 +27,7 @@ let isValidName = function () {
 }
 
 let IsValidPhone = function () {
-    return /^\+?\s?\d{2}?\s?\(?\d{3}?\s?\)?\s?(\d\s?){5,7}/gm.test(phone.value);
+    return /^\+?\s?\d{2}?\s?\(?\d{3}?\s?\)?\s?(\d\s?){5,7}/.test(phone.value);
 }
 
 btn.addEventListener('click', (event) => {
