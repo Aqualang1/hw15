@@ -44,7 +44,3 @@ btn.addEventListener('click', (event) => {
         counter();
     }
 })
-
-// const iSvalidLogin = ;
-
-// const iSvalidLogin = (login.value) => /^[^\s@]{5,}@[^\s@]+\.[^\s@]+$/gi;
